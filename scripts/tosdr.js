@@ -8,7 +8,7 @@ const topics = require('./tosdr-topics.json')
 const fs = require('fs')
 const tldjs = require('tldjs')
 let processed = {}
-let nProcessed = 0
+let nProcessed = 1
 
 function getSites() {
     // get the full list of tosdr sites. This does not include points data. We will
